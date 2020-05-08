@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+<form>
+    <p>
+        <label for="usuario">Usuário:</label>
+        <input id="usuario" type="text">
+    </p>
+    <p>
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem"></textarea>
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+    </p>
+</form>
+
+{% endblock %}
